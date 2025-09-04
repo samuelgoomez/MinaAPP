@@ -66,3 +66,22 @@ p {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Imagen de portada */
+.intro-img {
+  width: 180px;              /* tamaño moderado */
+  height: 180px;             /* mantiene proporción cuadrada */
+  object-fit: cover;         /* recorta para que no se deforme */
+  border-radius: 50%;        /* redondeada tipo retrato */
+  margin-bottom: 20px;       /* espacio respecto al título */
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4); /* sombra elegante */
+  border: 4px solid rgba(255, 255, 255, 0.8); /* borde brillante */
+  animation: fadeIn 2s ease forwards, pulse 6s infinite ease-in-out;
+}
+
+/* Animación sutil de respiración */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
