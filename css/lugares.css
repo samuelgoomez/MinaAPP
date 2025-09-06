@@ -113,3 +113,46 @@ body {
     margin-top: 30px;
   }
 }
+
+/* Botón atrás */
+
+/* Contenedor del botón atrás */
+.btn-atras {
+  position: fixed; /* siempre visible al hacer scroll */
+  top: 20px;
+  left: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, background 0.3s ease;
+  z-index: 1000;
+}
+
+/* Efecto al pasar el ratón */
+.btn-atras:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Imagen de la flecha */
+.btn-atras img {
+  width: 20px;  /* tamaño de la flechita */
+  height: auto;
+}
+
+/* En móvil un poco más pequeño */
+@media (max-width: 600px) {
+  .btn-atras {
+    width: 38px;
+    height: 38px;
+  }
+  .btn-atras img {
+    width: 18px;
+  }
+}
