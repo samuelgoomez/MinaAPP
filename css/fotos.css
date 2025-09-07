@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.fotos-container {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fotos-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.fotos-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+.fotos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  width: 100%;
+  justify-items: center;
+}
+
+.fotos-grid img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.fotos-grid img:hover {
+  transform: scale(1.05);
+}
+
+.btn-volver {
+  margin-top: 25px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-volver:hover {
+  background: rgba(255,255,255,0.35);
+  transform: scale(1.05);
+}
+
+.btn-atras {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, background 0.3s ease;
+  z-index: 1000;
+}
+
+.btn-atras:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.btn-atras img {
+  width: 20px;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .fotos-grid {
+    grid-template-columns: 1fr;
+  }
+  .fotos-container h1 {
+    font-size: 2rem;
+  }
+  .fotos-container p {
+    font-size: 1rem;
+  }
+}
+
+/* Mensaje bonito debajo del título */
+.fotos-container p {
+  text-align: center;
+  line-height: 1.5;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  margin-bottom: 35px;
+  font-style: italic;
+  color: #fff;
+}
+
+/* Ajuste máximo para fotos en móviles */
+@media (max-width: 600px) {
+  .fotos-grid img {
+    width: 120px;
+    height: 80px;
+  }
+}
+
+/* Mensaje sugerido */
+.fotos-container .mensaje {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  max-width: 700px;
+}
+

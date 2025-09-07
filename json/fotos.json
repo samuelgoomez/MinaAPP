@@ -3,36 +3,36 @@
     "caceres": {
       "nombre": "Caceres",
       "folder": "images/pueblos/caceres/",
-      "fotos": ["caceres1.jpg", "caceres2.jpg", "caceres3.jpg"]
+      "fotos": ["caceres1.jpg", "caceres2.jpg", "caceres3.jpg", "caceres4.jpg", "caceres5.jpg", "caceres6.jpg", "caceres7.jpg", "caceres8.jpg", "caceres9.jpg"]
     },
     "plasencia": {
       "nombre": "Plasencia",
       "folder": "images/pueblos/plasencia/",
-      "fotos": []
+      "fotos": ["plasencia1.jpg"]
     },
     "valladolid": {
       "nombre": "Valladolid",
       "folder": "images/pueblos/valladolid/",
-      "fotos": []
+      "fotos": ["valladolid1.jpg", "valladolid2.jpg"]
     },
     "rincon": {
       "nombre": "Rincon",
       "folder": "images/pueblos/rincon/",
-      "fotos": ["coria2.jpg", "rincon1.jpg"]
+      "fotos": ["coria2.jpg", "coria3.jpg", "coria4.jpg", "coria5.jpg", "coria6.jpg", "coria7.jpg", "coria8.jpg", "rincon1.jpg", "rincon2.jpg", "rincon3.jpg", "rincon4.jpg", "rincon5.jpg", "rincon6.jpg"]
     },
     "torrejoncillo": {
       "nombre": "Torrejoncillo",
       "folder": "images/pueblos/torrejoncillo/",
-      "fotos": ["portada.jpg", "torrejoncillo10.jpg", "torrejoncillo11.jpg", "torrejoncillo2.jpg", "torrejoncillo3.jpg", "torrejoncillo4.jpg", "torrejoncillo5.jpg", "torrejoncillo6.jpg", "torrejoncillo7.jpg", "torrejoncillo8.jpg", "torrejoncillo9.jpg", "valdencin1.jpg", "valdencin2.jpg", "valdencin3.jpg"]
+      "fotos": ["portada.jpg", "torrejoncillo0.jpg", "torrejoncillo02.jpg", "torrejoncillo10.jpg", "torrejoncillo11.jpg", "torrejoncillo12.jpg", "torrejoncillo13.jpg", "torrejoncillo14.jpg", "torrejoncillo15.jpg", "torrejoncillo16.jpg", "torrejoncillo17.jpg", "torrejoncillo18.jpg", "torrejoncillo19.jpg", "torrejoncillo2.jpg", "torrejoncillo20.jpg", "torrejoncillo21.jpg", "torrejoncillo22.jpg", "torrejoncillo23.jpg", "torrejoncillo24.jpg", "torrejoncillo3.jpg", "torrejoncillo4.jpg", "torrejoncillo5.jpg", "torrejoncillo6.jpg", "torrejoncillo7.jpg", "torrejoncillo8.jpg", "torrejoncillo9.jpg", "valdencin1.jpg", "valdencin2.jpg", "valdencin3.jpg", "valdencin4.jpg"]
     }
   },
   "detalles": {
     "folder": "images/detalles/",
-    "fotos": []
+    "fotos": ["detalles1.jpg"]
   },
   "citas": {
     "folder": "images/citas/",
-    "fotos": []
+    "fotos": ["cenas1.jpg", "cenas2.jpg", "cenas3.jpg", "cenas4.jpg", "cenas5.jpg", "cenas6.jpg"]
   },
-  "todas": ["images/pueblos/caceres/caceres1.jpg", "images/pueblos/caceres/caceres2.jpg", "images/pueblos/caceres/caceres3.jpg", "images/pueblos/rincon/coria2.jpg", "images/pueblos/rincon/rincon1.jpg", "images/pueblos/torrejoncillo/portada.jpg", "images/pueblos/torrejoncillo/torrejoncillo10.jpg", "images/pueblos/torrejoncillo/torrejoncillo11.jpg", "images/pueblos/torrejoncillo/torrejoncillo2.jpg", "images/pueblos/torrejoncillo/torrejoncillo3.jpg", "images/pueblos/torrejoncillo/torrejoncillo4.jpg", "images/pueblos/torrejoncillo/torrejoncillo5.jpg", "images/pueblos/torrejoncillo/torrejoncillo6.jpg", "images/pueblos/torrejoncillo/torrejoncillo7.jpg", "images/pueblos/torrejoncillo/torrejoncillo8.jpg", "images/pueblos/torrejoncillo/torrejoncillo9.jpg", "images/pueblos/torrejoncillo/valdencin1.jpg", "images/pueblos/torrejoncillo/valdencin2.jpg", "images/pueblos/torrejoncillo/valdencin3.jpg"]
+  "todas": ["images/pueblos/caceres/caceres1.jpg", "images/pueblos/caceres/caceres2.jpg", "images/pueblos/caceres/caceres3.jpg", "images/pueblos/caceres/caceres4.jpg", "images/pueblos/caceres/caceres5.jpg", "images/pueblos/caceres/caceres6.jpg", "images/pueblos/caceres/caceres7.jpg", "images/pueblos/caceres/caceres8.jpg", "images/pueblos/caceres/caceres9.jpg", "images/pueblos/plasencia/plasencia1.jpg", "images/pueblos/valladolid/valladolid1.jpg", "images/pueblos/valladolid/valladolid2.jpg", "images/pueblos/rincon/coria2.jpg", "images/pueblos/rincon/coria3.jpg", "images/pueblos/rincon/coria4.jpg", "images/pueblos/rincon/coria5.jpg", "images/pueblos/rincon/coria6.jpg", "images/pueblos/rincon/coria7.jpg", "images/pueblos/rincon/coria8.jpg", "images/pueblos/rincon/rincon1.jpg", "images/pueblos/rincon/rincon2.jpg", "images/pueblos/rincon/rincon3.jpg", "images/pueblos/rincon/rincon4.jpg", "images/pueblos/rincon/rincon5.jpg", "images/pueblos/rincon/rincon6.jpg", "images/pueblos/torrejoncillo/portada.jpg", "images/pueblos/torrejoncillo/torrejoncillo0.jpg", "images/pueblos/torrejoncillo/torrejoncillo02.jpg", "images/pueblos/torrejoncillo/torrejoncillo10.jpg", "images/pueblos/torrejoncillo/torrejoncillo11.jpg", "images/pueblos/torrejoncillo/torrejoncillo12.jpg", "images/pueblos/torrejoncillo/torrejoncillo13.jpg", "images/pueblos/torrejoncillo/torrejoncillo14.jpg", "images/pueblos/torrejoncillo/torrejoncillo15.jpg", "images/pueblos/torrejoncillo/torrejoncillo16.jpg", "images/pueblos/torrejoncillo/torrejoncillo17.jpg", "images/pueblos/torrejoncillo/torrejoncillo18.jpg", "images/pueblos/torrejoncillo/torrejoncillo19.jpg", "images/pueblos/torrejoncillo/torrejoncillo2.jpg", "images/pueblos/torrejoncillo/torrejoncillo20.jpg", "images/pueblos/torrejoncillo/torrejoncillo21.jpg", "images/pueblos/torrejoncillo/torrejoncillo22.jpg", "images/pueblos/torrejoncillo/torrejoncillo23.jpg", "images/pueblos/torrejoncillo/torrejoncillo24.jpg", "images/pueblos/torrejoncillo/torrejoncillo3.jpg", "images/pueblos/torrejoncillo/torrejoncillo4.jpg", "images/pueblos/torrejoncillo/torrejoncillo5.jpg", "images/pueblos/torrejoncillo/torrejoncillo6.jpg", "images/pueblos/torrejoncillo/torrejoncillo7.jpg", "images/pueblos/torrejoncillo/torrejoncillo8.jpg", "images/pueblos/torrejoncillo/torrejoncillo9.jpg", "images/pueblos/torrejoncillo/valdencin1.jpg", "images/pueblos/torrejoncillo/valdencin2.jpg", "images/pueblos/torrejoncillo/valdencin3.jpg", "images/pueblos/torrejoncillo/valdencin4.jpg", "images/detalles/detalles1.jpg", "images/citas/cenas1.jpg", "images/citas/cenas2.jpg", "images/citas/cenas3.jpg", "images/citas/cenas4.jpg", "images/citas/cenas5.jpg", "images/citas/cenas6.jpg"]
 }
