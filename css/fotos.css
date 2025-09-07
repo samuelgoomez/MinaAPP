@@ -170,3 +170,14 @@ body {
   cursor: pointer;
   user-select: none;
 }
+
+.fotos-grid img {
+  cursor: zoom-in;           /* Cambia el puntero para indicar que se puede ampliar */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.fotos-grid img:hover {
+  transform: scale(1.05);    /* Pequeño zoom */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
