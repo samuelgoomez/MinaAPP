@@ -19,6 +19,41 @@ const botonVolver = document.getElementById("volver-menu");
 const titulo = document.getElementById("titulo-fotos");
 const mensaje = document.getElementById("mensaje-fotos");
 
+// Crear modal para ver fotos ampliadas (si no existe)
+let modal = document.querySelector(".modal-foto");
+if (!modal) {
+  modal = document.createElement("div");
+  modal.classList.add("modal-foto");
+  modal.style.display = "none";
+  modal.innerHTML = `
+    <span class="cerrar-modal">&times;</span>
+    <img class="modal-contenido" id="img-ampliada" alt="Foto ampliada">
+  `;
+  document.body.appendChild(modal);
+}
+
+const modalImg = document.getElementById("img-ampliada");
+const cerrarModal = modal.querySelector(".cerrar-modal");
+
+// Función para abrir modal con la imagen
+function abrirModal(src, alt) {
+  modal.style.display = "flex";
+  modalImg.src = src;
+  modalImg.alt = alt;
+}
+
+// Evento de cerrar modal
+cerrarModal.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+// Cerrar si se hace clic fuera de la imagen
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+});
+
 // Función para obtener parámetro de URL
 function getParametro(nombre) {
   const params = new URLSearchParams(window.location.search);
@@ -65,6 +100,12 @@ fetch("json/fotos.json")
           img.src = data[categoria].folder + f;
         }
         img.alt = categoria;
+
+        // Evento para abrir modal al hacer click
+        img.addEventListener("click", () => {
+          abrirModal(img.src, img.alt);
+        });
+
         grid.appendChild(img);
       });
     }
