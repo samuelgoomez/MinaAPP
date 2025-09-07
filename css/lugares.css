@@ -199,15 +199,24 @@ body {
 
 /* Responsive para móviles */
 @media (max-width: 600px) {
+  .fotos-grid {
+    grid-template-columns: repeat(2, 1fr); /* dos columnas */
+    gap: 10px;
+  }
+
+  .fotos-grid img {
+    width: 100%;      /* que ocupe toda la columna */
+    aspect-ratio: 4 / 3; /* mantiene proporción */
+    height: auto;
+    border-radius: 12px;
+  }
+
   .fotos-container h1 {
     font-size: 2rem;
   }
+
   .fotos-container p {
     font-size: 1rem;
-  }
-  .fotos-grid {
-    grid-template-columns: 1fr; /* 1 columna en móvil */
-    gap: 15px;
   }
 }
 /* Cada foto dinámica del JSON */
