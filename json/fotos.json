@@ -1,0 +1,38 @@
+{
+  "pueblos": {
+    "caceres": {
+      "nombre": "Caceres",
+      "folder": "images/pueblos/caceres/",
+      "fotos": ["caceres1.jpg", "caceres2.jpg", "caceres3.jpg"]
+    },
+    "plasencia": {
+      "nombre": "Plasencia",
+      "folder": "images/pueblos/plasencia/",
+      "fotos": []
+    },
+    "valladolid": {
+      "nombre": "Valladolid",
+      "folder": "images/pueblos/valladolid/",
+      "fotos": []
+    },
+    "rincon": {
+      "nombre": "Rincon",
+      "folder": "images/pueblos/rincon/",
+      "fotos": ["coria2.jpg", "rincon1.jpg"]
+    },
+    "torrejoncillo": {
+      "nombre": "Torrejoncillo",
+      "folder": "images/pueblos/torrejoncillo/",
+      "fotos": ["portada.jpg", "torrejoncillo10.jpg", "torrejoncillo11.jpg", "torrejoncillo2.jpg", "torrejoncillo3.jpg", "torrejoncillo4.jpg", "torrejoncillo5.jpg", "torrejoncillo6.jpg", "torrejoncillo7.jpg", "torrejoncillo8.jpg", "torrejoncillo9.jpg", "valdencin1.jpg", "valdencin2.jpg", "valdencin3.jpg"]
+    }
+  },
+  "detalles": {
+    "folder": "images/detalles/",
+    "fotos": []
+  },
+  "citas": {
+    "folder": "images/citas/",
+    "fotos": []
+  },
+  "todas": ["images/pueblos/caceres/caceres1.jpg", "images/pueblos/caceres/caceres2.jpg", "images/pueblos/caceres/caceres3.jpg", "images/pueblos/rincon/coria2.jpg", "images/pueblos/rincon/rincon1.jpg", "images/pueblos/torrejoncillo/portada.jpg", "images/pueblos/torrejoncillo/torrejoncillo10.jpg", "images/pueblos/torrejoncillo/torrejoncillo11.jpg", "images/pueblos/torrejoncillo/torrejoncillo2.jpg", "images/pueblos/torrejoncillo/torrejoncillo3.jpg", "images/pueblos/torrejoncillo/torrejoncillo4.jpg", "images/pueblos/torrejoncillo/torrejoncillo5.jpg", "images/pueblos/torrejoncillo/torrejoncillo6.jpg", "images/pueblos/torrejoncillo/torrejoncillo7.jpg", "images/pueblos/torrejoncillo/torrejoncillo8.jpg", "images/pueblos/torrejoncillo/torrejoncillo9.jpg", "images/pueblos/torrejoncillo/valdencin1.jpg", "images/pueblos/torrejoncillo/valdencin2.jpg", "images/pueblos/torrejoncillo/valdencin3.jpg"]
+}

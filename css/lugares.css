@@ -156,3 +156,135 @@ body {
     width: 18px;
   }
 }
+
+/* Contenedor de fotos dinámico */
+.fotos-container {
+  max-width: 1100px;
+  margin: 50px auto 0 auto; /* separación del menú */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fotos-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.fotos-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Grid de fotos */
+.fotos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+/* Cada foto */
+.fotos-grid img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.fotos-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive para móviles */
+@media (max-width: 600px) {
+  .fotos-container h1 {
+    font-size: 2rem;
+  }
+  .fotos-container p {
+    font-size: 1rem;
+  }
+  .fotos-grid {
+    grid-template-columns: 1fr; /* 1 columna en móvil */
+    gap: 15px;
+  }
+}
+/* Cada foto dinámica del JSON */
+.fotos-grid img {
+  width: 150px;         /* tamaño reducido */
+  height: 100px;        /* mantener proporción aproximada */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.fotos-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Fotos dinámicas del JSON: tamaño pequeño */
+.fotos-grid {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* fotos más pequeñas */
+  gap: 15px;
+}
+
+.fotos-grid img {
+  max-width: 150px; /* ancho máximo para que sean pequeñas */
+  height: auto;      /* altura proporcional */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.fotos-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Título y descripción del pueblo */
+#nombre-pueblo {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#descripcion-pueblo {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+/* Botón volver al menú */
+.btn-volver {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.btn-volver:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: scale(1.05);
+}
+
+/* Centrar fotos dinámicas y contenedor */
+.fotos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 50px auto 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+}
+
