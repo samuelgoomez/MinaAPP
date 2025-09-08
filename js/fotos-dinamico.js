@@ -115,7 +115,7 @@ fetch("json/fotos.json")
     // Añadir listener solo una vez
     if (!botonVolver.dataset.listener) {
       botonVolver.addEventListener("click", () => {
-        window.location.href = "index.html";
+        window.location.href = "menu.html";
       });
       botonVolver.dataset.listener = "true";
     }
